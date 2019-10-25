@@ -1,0 +1,2 @@
+# zycie-poza
+pierwszy projekt
