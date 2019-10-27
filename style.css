@@ -1,0 +1,27 @@
+body{
+    background-color: whitesmoke;
+}
+.nav ul{
+    display:flex;
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+.nav li{
+    flex:1;
+}
+
+@media all and (max-width:1000px){
+    .nav ul{
+        flex-wrap: wrap;
+    }
+    .nav li{
+        flex:1 1 50%;
+    }
+}
+
+@media all and (max-width:500px){
+    .nav li {
+        flex-basis: 100%;
+    }
+}
