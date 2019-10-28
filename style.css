@@ -1,5 +1,6 @@
 body{
     background-color: whitesmoke;
+    margin: 0px;
 }
 .navbar{
     background-color: #222;
@@ -28,8 +29,36 @@ body{
 }
 
 header{
+    background-image: url(./img/2696888.jpg);
+    background-position: center;
+    background-size: cover;
     text-align: center;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 80px;
+
+    
+}
+.container{
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+}
+
+/*portfolio*/
+ul.foto{
+    list-style: none;
+
+}
+section.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 80px;
 }
 
 footer {
