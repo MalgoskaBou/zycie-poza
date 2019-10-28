@@ -1,5 +1,5 @@
 body{
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.89);
     /*margin: 0px;*/
 }
 .navbar{
@@ -13,10 +13,10 @@ body{
     color: rgb(137, 23, 230);
 }
 .nav-item a {
-	font-family: 
+	font-family: "open sans";
 	font-weight: 400;
 	letter-spacing: 1px;
-	color:#fff
+	color:#fff;
 }
 .nav-item a:hover{
     color: rgb(137, 23, 230);
